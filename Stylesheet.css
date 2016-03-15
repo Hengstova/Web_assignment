@@ -1,0 +1,100 @@
+
+nav {
+    margin: 50px;
+}
+
+ul {
+    overflow: auto;
+    list-style-type: none;
+}
+
+li {
+    height: 25px;
+    float: left;
+    margin-right: 0px;
+    padding: 50px 100px;
+}
+
+
+li a {
+    text-decoration: none;
+    color: #996633;
+    font-family: "Bangla MN";
+    font-size: 14px;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+li a:hover {
+    color: #00FFFF;
+}
+
+li.active a {
+    font-weight: bold;
+    color: #00FFFF;
+}
+#logo {
+    margin: -100px 0 0 0;
+}
+img {
+    float:right;
+    vertical-align: top;
+}
+
+#image_S {
+    padding: 50px 95px;
+    height: 500px;
+    width: 500px;
+    margin: 0 auto;
+
+}
+#summershouses {
+
+    text-align: center;
+    font-family: "Bangla MN", serif;
+    font-size: 26px;
+    color: #996633;
+
+}
+.box_holder {
+    width: 1288px;
+    padding: 0 39px;
+    height: 468px;
+    background-color: white;
+    position: relative;
+}
+#box {
+    width: 296px;
+    height: 468px;
+    margin: 0px 13px;
+    background-color: white;
+    position: relative;
+    float: left;
+}
+
+#box img {
+    width:175px;
+    margin:0 20%;
+    float:none;
+
+}
+
+#text {
+    width: 175px;
+    height: 100%;
+    text-align: center;
+    font-family: "Avenir Next";
+    float: left;
+    position: relative;
+    margin: 10px 20%;
+}
+
+img {
+  /*  width: 150px;
+    margin:auto;
+*/
+}
